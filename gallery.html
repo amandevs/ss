@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery (Images & Videos) | Dargah Hazrat Shah Sharafat Ali Miyan R.h.</title>
+  <meta name="description" content="Visual archives, shrine photography, video transmissions, and Urs Mubarak moments from Dargah Hazrat Shah Sharafat Ali Miyan and Dargah Hazrat Shah Shuja'at Ali Miyan.">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/png" href="assets/branding/crest-khanqah.png">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <div class="top-bar-left">
+        <div class="top-bar-item"><span>Islamic Date: <strong id="current-hijri-date">1448 A.H.</strong></span></div>
+        <div class="top-bar-item"><span>Shahbad, Bareilly Sharif, Uttar Pradesh (PIN 243003)</span></div>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-bar-item"><span>alshahsaqlain@gmail.com</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-wrapper">
+        <img src="assets/branding/crest-khanqah.png" alt="Dargah Logo" class="brand-logo-img">
+        <div class="brand-text-block">
+          <span class="brand-title">Dargah Shah Sharafat Ali Miyan</span>
+          <span class="brand-subtitle">Khanqah-e-Saqlainia Sharafatiya • Bareilly</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <div class="nav-item"><a href="index.html" class="nav-link">HOME</a></div>
+        <div class="nav-item">
+          <a href="about-khanqah.html" class="nav-link">ABOUT+</a>
+          <div class="dropdown-menu">
+            <a href="about-khanqah.html" class="dropdown-link">🕌 About Khanqah Sharif</a>
+            <a href="about-other.html" class="dropdown-link">🤲 Welfare & Other Services</a>
+            <a href="sufi-saint.html" class="dropdown-link">✨ Our Sufi Patron-Saint</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="lineage.html" class="nav-link">PORTRANGE+</a></div>
+        <div class="nav-item"><a href="gallery.html" class="nav-link active">MEDIA+</a></div>
+        <div class="nav-item"><a href="events.html" class="nav-link">EVENTS</a></div>
+        <div class="nav-item"><a href="books.html" class="nav-link">BOOKS</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></div>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="sajrah-sharif.html" class="btn-shajra-badge"><span>شجرۂ شریف</span></a>
+        <button class="btn-menu-drawer open-menu-drawer"><span>MENU</span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Offcanvas Navigation Drawer -->
+  <div class="page2-overlay" id="page2-overlay">
+    <div class="page2-drawer">
+      <div class="page2-header">
+        <div>
+          <h3 class="page2-menu-title">SITE DIRECTORY</h3>
+          <span style="font-size:0.75rem; color:var(--gold-dark); font-weight:600;">Khanqah-e-Saqlainia Sharafatiya</span>
+        </div>
+        <button class="page2-close" id="page2-close-btn">&times;</button>
+      </div>
+
+      <div class="page2-links-grid">
+        <a href="index.html" class="page2-link-card">
+          <span class="title">HOME</span>
+          <span class="desc">Main portal & announcements</span>
+        </a>
+        <a href="about-khanqah.html" class="page2-link-card">
+          <span class="title">ABOUT KHANQAH</span>
+          <span class="desc">History & foundation 1950</span>
+        </a>
+        <a href="about-other.html" class="page2-link-card">
+          <span class="title">ABOUT OTHER</span>
+          <span class="desc">Langar & welfare services</span>
+        </a>
+        <a href="sufi-saint.html" class="page2-link-card">
+          <span class="title">OUR SUFI SAINT</span>
+          <span class="desc">Hazrat Shah Sharafat Ali Miyan</span>
+        </a>
+        <a href="sajrah-sharif.html" class="page2-link-card">
+          <span class="title">SAJRA'H SHARIF</span>
+          <span class="desc">4-Language sacred verses</span>
+        </a>
+        <a href="lineage.html" class="page2-link-card">
+          <span class="title">LINEAGE (SILSILA)</span>
+          <span class="desc">Holy genealogical chain</span>
+        </a>
+        <a href="gallery.html" class="page2-link-card">
+          <span class="title">IMAGE GALLERY</span>
+          <span class="desc">Shrine photos & Urs events</span>
+        </a>
+        <a href="gallery.html#videos" class="page2-link-card">
+          <span class="title">VIDEO GALLERY</span>
+          <span class="desc">Bayanat & Urs transmissions</span>
+        </a>
+        <a href="events.html" class="page2-link-card">
+          <span class="title">EVENTS & URS</span>
+          <span class="desc">Urs-e-Sharafati reports</span>
+        </a>
+        <a href="books.html" class="page2-link-card">
+          <span class="title">BOOKS & LIBRARY</span>
+          <span class="desc">Spiritual literature & reader</span>
+        </a>
+        <a href="contact.html" class="page2-link-card" style="grid-column: span 2;">
+          <span class="title">CONTACT US</span>
+          <span class="desc">Office, route map & messages</span>
+        </a>
+      </div>
+
+      <div class="page2-info-box">
+        <h4>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          Dargah Hazrat Shah Sharafat Ali Miyan R.h.
+        </h4>
+        <p>Shahbad, Bareilly, Uttar Pradesh, India, Pin : 243003</p>
+        <p><strong>Email:</strong> alshahsaqlain@gmail.com</p>
+        <p><strong>Official Portals:</strong> alsaqlain.com • alsaqlain.in • alsaqlain.org</p>
+      </div>
+
+      <div class="page2-socials">
+        <h5 class="page2-socials-title">Social Media Platforms</h5>
+        <div class="page2-social-icons">
+          <a href="https://youtube.com/@alshahsaqlain" target="_blank" class="page2-soc-btn" title="YouTube">YT</a>
+          <a href="https://facebook.com/alshahsaqlain" target="_blank" class="page2-soc-btn" title="Facebook">FB</a>
+          <a href="https://instagram.com/alshahsaqlain" target="_blank" class="page2-soc-btn" title="Instagram">IG</a>
+          <a href="https://twitter.com/alshahsaqlain" target="_blank" class="page2-soc-btn" title="Twitter / X">X</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breadcrumb -->
+  <div style="background:var(--bg-secondary); border-bottom:1px solid var(--border-subtle); padding:1rem 1.5rem;">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; font-size:0.85rem;">
+      <div style="color:var(--text-muted);">
+        <a href="index.html" style="color:var(--emerald-primary); font-weight:600;">Home</a> / Media / <strong style="color:var(--emerald-dark);">Gallery</strong>
+      </div>
+      <div style="font-family:var(--font-heading); font-size:0.88rem; color:var(--gold-dark); font-weight:700;">Photo & Video Archives</div>
+    </div>
+  </div>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Visual Collection</span>
+        <h1 class="section-title">Photo & Video Gallery</h1>
+        <div class="section-divider">
+          <span class="line"></span>
+          <span class="ornament">۞</span>
+          <span class="line right"></span>
+        </div>
+        <p class="section-subtitle">
+          Explore sacred photographs of Dargah Hazrat Shah Sharafat Ali Miyan R.h., Dargah Hazrat Shah Shuja'at Ali Miyan R.h., and Urs Mubarak celebrations.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="gallery-filter-tabs">
+        <button class="gallery-tab-btn active" data-category="all">All Visuals</button>
+        <button class="gallery-tab-btn" data-category="sharafat">Dargah Shah Sharafat Ali Miyan R.h.</button>
+        <button class="gallery-tab-btn" data-category="shujaat">Dargah Shah Shuja'at Ali Miyan R.h.</button>
+        <button class="gallery-tab-btn" data-category="urs">Urs Mubarak Celebrations</button>
+      </div>
+
+      <!-- Section Heading 1: Dargah Hazrat Shah Sharafat Ali Miyan (Page 9 from PDF) -->
+      <div style="margin-bottom:1.5rem;">
+        <h3 style="font-family:var(--font-heading); font-size:1.45rem; color:var(--emerald-deep); display:flex; align-items:center; gap:0.65rem;">
+          <span>🕌</span> DARGAH HAZRAT SHAH SHARAFAT ALI MIYAN R.H.
+        </h3>
+        <p style="font-size:0.88rem; color:var(--text-muted);">Shahbad, Bareilly Sharif, Uttar Pradesh</p>
+      </div>
+
+      <div class="gallery-grid" style="margin-bottom:3.5rem;">
+        <div class="gallery-item" data-category="sharafat" data-caption="Blessed Shrine Dome and Minarets (Shahbad, Bareilly)">
+          <img src="assets/images/gallery-1.jpg?v=2" alt="Dargah Shah Sharafat Ali Miyan" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Shrine Dome & Minarets</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="sharafat" data-caption="Sanctum Chamber & Holy Chador Sharif">
+          <img src="assets/images/gallery-2.jpg" alt="Mazar Sharif" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Sanctum Chamber</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="sharafat" data-caption="Floral Decorations at the Blessed Threshold">
+          <img src="assets/images/gallery-9.jpg" alt="Floral Decoration" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Floral Tribute</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="sharafat" data-caption="Night Illumination of the Dargah Complex">
+          <img src="assets/images/gallery-10.jpg" alt="Night View" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Night Illumination</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="sharafat" data-caption="Courtyard of Khanqah-e-Sharafatiya">
+          <img src="assets/images/gallery-11.jpg" alt="Courtyard View" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Khanqah Courtyard</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="sharafat" data-caption="Devotees Offering Fatiha and Du'a">
+          <img src="assets/images/gallery-12.jpg" alt="Devotees in Prayer" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Devotees in Prayer</span></div>
+        </div>
+      </div>
+
+      <!-- Section Heading 2: Dargah Hazrat Shah Shuja'at Ali Miyan (Page 9 from PDF) -->
+      <div style="margin-bottom:1.5rem;">
+        <h3 style="font-family:var(--font-heading); font-size:1.45rem; color:var(--emerald-deep); display:flex; align-items:center; gap:0.65rem;">
+          <span>🕌</span> DARGAH HAZRAT SHAH SHUJA'AT ALI MIYAN R.H.
+        </h3>
+        <p style="font-size:0.88rem; color:var(--text-muted);">Kakrala Sharif, Badayun, Uttar Pradesh</p>
+      </div>
+
+      <div class="gallery-grid" style="margin-bottom:3.5rem;">
+        <div class="gallery-item" data-category="shujaat" data-caption="Dargah Hazrat Shah Shuja'at Ali Miyan (Kakrala)">
+          <img src="assets/images/gallery-4.jpg" alt="Dargah Hazrat Shah Shuja'at Ali Miyan" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Dargah Shah Shuja'at Ali Miyan</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="shujaat" data-caption="Holy Mazar Sharif of Hazrat Shah Shuja'at Ali Miyan">
+          <img src="assets/images/gallery-5.jpg" alt="Mazar Sharif Kakrala" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Holy Mazar Sharif</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="shujaat" data-caption="Spiritual Mehfil and Devotee Assembly in Kakrala">
+          <img src="assets/images/gallery-13.jpg" alt="Spiritual Assembly" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Spiritual Assembly</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="shujaat" data-caption="Urs-e-Shuja'ati Gathering and Processions">
+          <img src="assets/images/gallery-14.jpg" alt="Urs Gathering" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Urs Gatherings</span></div>
+        </div>
+      </div>
+
+      <!-- Section Heading 3: Urs Mubarak & Gatherings (Page 9 & 11) -->
+      <div style="margin-bottom:1.5rem;">
+        <h3 style="font-family:var(--font-heading); font-size:1.45rem; color:var(--emerald-deep); display:flex; align-items:center; gap:0.65rem;">
+          <span>🌹</span> URS MUBARAK CELEBRATIONS & PROCESSIONS
+        </h3>
+        <p style="font-size:0.88rem; color:var(--text-muted);">Sakalani Karwan from Mumbai, Bhopal, Gwalior & Bareilly Junction</p>
+      </div>
+
+      <div class="gallery-grid" style="margin-bottom:3.5rem;">
+        <div class="gallery-item" data-category="urs" data-caption="Sakalani Karwan Arrival at Bareilly Junction">
+          <img src="assets/images/gallery-3.jpg" alt="Karwan Arrival" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Karwan Arrival</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="urs" data-caption="Grand Chador Poshi Procession through the Streets">
+          <img src="assets/images/gallery-6.jpg" alt="Chador Poshi Procession" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Chador Poshi Procession</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="urs" data-caption="Gul Poshi and Floral Offerings at the Sanctum">
+          <img src="assets/images/gallery-15.jpg" alt="Gul Poshi" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Gul Poshi Ceremony</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="urs" data-caption="Devotee Assembly and Collective Du'a">
+          <img src="assets/images/gallery-16.jpg" alt="Collective Dua" class="gallery-img">
+          <div class="gallery-overlay"><span class="gallery-caption">Collective Du'a</span></div>
+        </div>
+      </div>
+
+      <!-- Pagination Numbers (Page 9 & 10 from PDF) -->
+      <div style="display:flex; justify-content:center; gap:0.5rem; margin-bottom:4.5rem;">
+        <span style="width:38px; height:38px; border-radius:50%; background:var(--emerald-primary); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700;">1</span>
+        <span style="width:38px; height:38px; border-radius:50%; background:#fff; border:1px solid var(--border-subtle); color:var(--text-main); display:flex; align-items:center; justify-content:center; font-weight:600; cursor:pointer;">2</span>
+        <span style="width:38px; height:38px; border-radius:50%; background:#fff; border:1px solid var(--border-subtle); color:var(--text-main); display:flex; align-items:center; justify-content:center; font-weight:600; cursor:pointer;">3</span>
+        <span style="width:38px; height:38px; border-radius:50%; background:#fff; border:1px solid var(--border-subtle); color:var(--text-main); display:flex; align-items:center; justify-content:center; font-weight:600; cursor:pointer;">4</span>
+        <span style="width:38px; height:38px; border-radius:50%; background:#fff; border:1px solid var(--border-subtle); color:var(--text-main); display:flex; align-items:center; justify-content:center; font-weight:600; cursor:pointer;">5</span>
+      </div>
+
+      <!-- Video Gallery Section (Page 10 from PDF) -->
+      <div id="videos">
+        <div class="section-header" style="margin-bottom:2rem;">
+          <span class="section-tag">Video Archives</span>
+          <h2 class="section-title">Video Gallery</h2>
+          <div class="section-divider"><span class="line"></span><span class="ornament">۞</span><span class="line right"></span></div>
+        </div>
+
+        <div class="video-grid" style="margin-bottom:3rem;">
+          <div class="video-card">
+            <div class="video-thumb-container">
+              <img src="assets/images/video-thumb-1.png" alt="Urs Documentary" class="video-thumb-img">
+              <div class="video-play-btn">▶</div>
+              <span class="video-duration">18:45</span>
+            </div>
+            <div class="video-info">
+              <h4>Annual Urs-e-Sharafati Documentary</h4>
+              <p>Highlights of processions, Sandal Sharif, and Kul ceremony in Bareilly Sharif.</p>
+            </div>
+          </div>
+
+          <div class="video-card">
+            <div class="video-thumb-container">
+              <img src="assets/images/video-thumb-2.jpg" alt="Qawwali Mehfil" class="video-thumb-img">
+              <div class="video-play-btn">▶</div>
+              <span class="video-duration">24:10</span>
+            </div>
+            <div class="video-info">
+              <h4>Mehfil-e-Sama & Manqabat-e-Sharafat</h4>
+              <p>Spiritual verses sung in praise of Hazrat Shah Sharafat Ali Miyan R.h.</p>
+            </div>
+          </div>
+
+          <div class="video-card">
+            <div class="video-thumb-container">
+              <img src="assets/images/video-thumb-3.png" alt="Discourse on Tasawwuf" class="video-thumb-img">
+              <div class="video-play-btn">▶</div>
+              <span class="video-duration">32:15</span>
+            </div>
+            <div class="video-info">
+              <h4>Teachings of the Holy Patron Saint</h4>
+              <p>Keynote lectures by eminent scholars on the Quadriyah Mujaddidiyah path.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:center; gap:0.5rem; margin-bottom:2rem;">
+          <span style="width:38px; height:38px; border-radius:50%; background:var(--emerald-primary); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700;">1</span>
+          <span style="width:38px; height:38px; border-radius:50%; background:#fff; border:1px solid var(--border-subtle); color:var(--text-main); display:flex; align-items:center; justify-content:center; font-weight:600; cursor:pointer;">2</span>
+          <span style="width:38px; height:38px; border-radius:50%; background:#fff; border:1px solid var(--border-subtle); color:var(--text-main); display:flex; align-items:center; justify-content:center; font-weight:600; cursor:pointer;">3</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-bottom">
+      <div class="footer-copy">Copyrights &copy; 2024. All Rights Reserved with <strong>alsaqlain.com</strong>.</div>
+    </div>
+  </footer>
+
+  <!-- Photo Lightbox Modal with Animated Transition & Navigation -->
+  <div class="custom-modal" id="lightbox-modal">
+    <div class="modal-inner">
+      <button class="modal-close-btn" id="lightbox-close" title="Close Popup (Esc)">&times;</button>
+      <div class="modal-content-area">
+        <div class="lightbox-img-wrapper">
+          <button class="lightbox-nav-btn prev" id="lightbox-prev" aria-label="Previous Photo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <img src="" alt="Enlarged View" id="lightbox-img" class="modal-main-img">
+          <button class="lightbox-nav-btn next" id="lightbox-next" aria-label="Next Photo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+        <div class="lightbox-meta-bar">
+          <div class="modal-caption" id="lightbox-caption">Dargah Hazrat Shah Sharafat Ali Miyan R.h.</div>
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <span class="lightbox-counter" id="lightbox-counter">Photo 1 of 12</span>
+            <a href="#" id="lightbox-download" class="btn-primary" style="padding: 0.35rem 0.85rem; font-size: 0.78rem; text-decoration: none;" download>
+              <span>Download</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Modal -->
+  <div class="custom-modal" id="video-modal">
+    <div class="modal-inner">
+      <button class="modal-close-btn" id="video-close">&times;</button>
+      <h3 id="video-modal-title" style="font-family:var(--font-heading); color:var(--emerald-deep); margin-bottom:1rem; text-align:center;">Video Transmission</h3>
+      <div id="video-modal-frame"></div>
+    </div>
+  </div>
+
+  <!-- Human-Style Mobile Bottom App Bar -->
+  <nav class="mobile-bottom-bar" aria-label="Mobile Navigation">
+    <a href="index.html" class="mobile-bottom-item">
+      <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="sajrah-sharif.html" class="mobile-bottom-item highlight-tab">
+      <svg viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg>
+      <span>Sajrah</span>
+    </a>
+    <a href="lineage.html" class="mobile-bottom-item">
+      <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+      <span>Lineage</span>
+    </a>
+    <a href="gallery.html" class="mobile-bottom-item active">
+      <svg viewBox="0 0 24 24"><path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/></svg>
+      <span>Gallery</span>
+    </a>
+    <a href="javascript:void(0)" class="mobile-bottom-item open-menu-drawer">
+      <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+      <span>Menu</span>
+    </a>
+  </nav>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

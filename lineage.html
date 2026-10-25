@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holy Spiritual Lineage (Silsila Tree) | Dargah Hazrat Shah Sharafat Ali Miyan R.h.</title>
+  <meta name="description" content="Explore the sacred genealogical and spiritual lineage of Silsila-e-Aaliyah Quadriyah Mujaddidiyah Sharafatiyah.">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/png" href="assets/branding/crest-khanqah.png">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <div class="top-bar-left">
+        <div class="top-bar-item"><span>Islamic Date: <strong id="current-hijri-date">1448 A.H.</strong></span></div>
+        <div class="top-bar-item"><span>Shahbad, Bareilly Sharif, Uttar Pradesh (PIN 243003)</span></div>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-bar-item"><span>alshahsaqlain@gmail.com</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-wrapper">
+        <img src="assets/branding/crest-khanqah.png" alt="Dargah Logo" class="brand-logo-img">
+        <div class="brand-text-block">
+          <span class="brand-title">Dargah Shah Sharafat Ali Miyan</span>
+          <span class="brand-subtitle">Khanqah-e-Saqlainia Sharafatiya • Bareilly</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <div class="nav-item"><a href="index.html" class="nav-link">HOME</a></div>
+        <div class="nav-item"><a href="about-khanqah.html" class="nav-link">ABOUT+</a></div>
+        <div class="nav-item">
+          <a href="lineage.html" class="nav-link active">PATRONAGE+</a>
+          <div class="dropdown-menu">
+            <a href="lineage.html" class="dropdown-link">📜 Silsila-e-Aaliyah Lineage</a>
+            <a href="sajrah-sharif.html" class="dropdown-link">📖 Sajrah Sharif Reciter</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="gallery.html" class="nav-link">MEDIA+</a></div>
+        <div class="nav-item"><a href="events.html" class="nav-link">EVENTS</a></div>
+        <div class="nav-item"><a href="books.html" class="nav-link">BOOKS</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></div>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="sajrah-sharif.html" class="btn-shajra-badge"><span>شجرۂ شریف</span></a>
+        <button class="btn-menu-drawer open-menu-drawer"><span>MENU</span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Offcanvas Navigation Drawer -->
+  <div class="page2-overlay" id="page2-overlay">
+    <div class="page2-drawer">
+      <div class="page2-header">
+        <div>
+          <h3 class="page2-menu-title">SITE DIRECTORY</h3>
+          <span style="font-size:0.75rem; color:var(--gold-dark); font-weight:600;">Khanqah-e-Saqlainia Sharafatiya</span>
+        </div>
+        <button class="page2-close" id="page2-close-btn">&times;</button>
+      </div>
+
+      <div class="page2-links-grid">
+        <a href="index.html" class="page2-link-card">
+          <span class="title">HOME</span>
+          <span class="desc">Main portal & announcements</span>
+        </a>
+        <a href="about-khanqah.html" class="page2-link-card">
+          <span class="title">ABOUT KHANQAH</span>
+          <span class="desc">History & foundation 1950</span>
+        </a>
+        <a href="about-other.html" class="page2-link-card">
+          <span class="title">ABOUT OTHER</span>
+          <span class="desc">Langar & welfare services</span>
+        </a>
+        <a href="sufi-saint.html" class="page2-link-card">
+          <span class="title">OUR SUFI SAINT</span>
+          <span class="desc">Hazrat Shah Sharafat Ali Miyan</span>
+        </a>
+        <a href="sajrah-sharif.html" class="page2-link-card">
+          <span class="title">SAJRA'H SHARIF</span>
+          <span class="desc">4-Language sacred verses</span>
+        </a>
+        <a href="lineage.html" class="page2-link-card">
+          <span class="title">LINEAGE (SILSILA)</span>
+          <span class="desc">Holy genealogical chain</span>
+        </a>
+        <a href="gallery.html" class="page2-link-card">
+          <span class="title">IMAGE GALLERY</span>
+          <span class="desc">Shrine photos & Urs events</span>
+        </a>
+        <a href="gallery.html#videos" class="page2-link-card">
+          <span class="title">VIDEO GALLERY</span>
+          <span class="desc">Bayanat & Urs transmissions</span>
+        </a>
+        <a href="events.html" class="page2-link-card">
+          <span class="title">EVENTS & URS</span>
+          <span class="desc">Urs-e-Sharafati reports</span>
+        </a>
+        <a href="books.html" class="page2-link-card">
+          <span class="title">BOOKS & LIBRARY</span>
+          <span class="desc">Spiritual literature & reader</span>
+        </a>
+        <a href="contact.html" class="page2-link-card" style="grid-column: span 2;">
+          <span class="title">CONTACT US</span>
+          <span class="desc">Office, route map & messages</span>
+        </a>
+      </div>
+
+      <div class="page2-info-box">
+        <h4>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          Dargah Hazrat Shah Sharafat Ali Miyan R.h.
+        </h4>
+        <p>Shahbad, Bareilly, Uttar Pradesh, India, Pin : 243003</p>
+        <p><strong>Email:</strong> alshahsaqlain@gmail.com</p>
+        <p><strong>Official Portals:</strong> alsaqlain.com • alsaqlain.in • alsaqlain.org</p>
+      </div>
+
+      <div class="page2-socials">
+        <h5 class="page2-socials-title">Social Media Platforms</h5>
+        <div class="page2-social-icons">
+          <a href="https://youtube.com/@alshahsaqlain" target="_blank" class="page2-soc-btn" title="YouTube">YT</a>
+          <a href="https://facebook.com/alshahsaqlain" target="_blank" class="page2-soc-btn" title="Facebook">FB</a>
+          <a href="https://instagram.com/alshahsaqlain" target="_blank" class="page2-soc-btn" title="Instagram">IG</a>
+          <a href="https://twitter.com/alshahsaqlain" target="_blank" class="page2-soc-btn" title="Twitter / X">X</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breadcrumb (Page 8 from PDF) -->
+  <div style="background:var(--bg-secondary); border-bottom:1px solid var(--border-subtle); padding:1rem 1.5rem;">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; font-size:0.85rem;">
+      <div style="color:var(--text-muted);">
+        <a href="index.html" style="color:var(--emerald-primary); font-weight:600;">Home</a> / About / <strong style="color:var(--emerald-dark);">Lineage</strong>
+      </div>
+      <div style="font-family:var(--font-heading); font-size:0.88rem; color:var(--gold-dark); font-weight:700;">Silsila-e-Aaliyah Sharafatiya</div>
+    </div>
+  </div>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Noble Lineage</span>
+        <h1 class="section-title">The Sacred Silsila Tree</h1>
+        <div class="section-divider">
+          <span class="line"></span>
+          <span class="ornament">۞</span>
+          <span class="line right"></span>
+        </div>
+        <p class="section-subtitle">
+          An unbroken chain of spiritual authority and divine illumination passed from heart to heart through centuries of supreme saints.
+        </p>
+      </div>
+
+      <!-- Interactive Animated Text Silsila Explorer -->
+      <div class="silsila-explorer-wrapper">
+        <!-- Explorer Toolbar -->
+        <div class="silsila-toolbar">
+          <div class="silsila-search-box">
+            <span class="silsila-search-icon">🔍</span>
+            <input type="text" id="silsila-search-input" class="silsila-search-input" placeholder="Search holy saint name, resting city, hijri year, or title...">
+          </div>
+
+          <div class="silsila-view-toggles">
+            <button class="silsila-view-btn active" data-view="cards">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M4 11h5V5H4v6zm0 7h5v-6H4v6zm6 0h5v-6h-5v6zm6 0h5v-6h-5v6zm-6-7h5V5h-5v6zm6-6v6h5V5h-5z"/></svg>
+              <span>Card Grid View</span>
+            </button>
+            <button class="silsila-view-btn" data-view="table">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3v18h18V3H3zm8 16H5v-4h6v4zm0-6H5V9h6v4zm0-6H5V5h6v2zm8 12h-6v-4h6v4zm0-6h-6V9h6v4zm0-6h-6V5h6v2z"/></svg>
+              <span>Sanad Table View</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Filter Pills by Era / Region -->
+        <div class="silsila-filter-pills">
+          <span style="font-size:0.8rem; font-weight:700; color:var(--emerald-dark); display:flex; align-items:center; margin-right:0.5rem;">Filter Realm:</span>
+          <button class="silsila-pill active" data-region="all">All 37 Awliya</button>
+          <button class="silsila-pill" data-region="prophetic">Holy Hijaz (Prophetic &amp; Sahaba)</button>
+          <button class="silsila-pill" data-region="iraq">Baghdad &amp; Iraq (Qadiriyyah)</button>
+          <button class="silsila-pill" data-region="sirhind">Sirhind Sharif (Mujaddidiyyah)</button>
+          <button class="silsila-pill" data-region="delhi">Delhi &amp; Punjab</button>
+          <button class="silsila-pill" data-region="bareilly">Bareilly Sharif &amp; Rohilkhand</button>
+        </div>
+
+        <!-- Dynamic Card View -->
+        <div id="silsila-cards-view-wrap">
+          <div class="silsila-cards-container" id="silsila-cards-grid">
+            <!-- Dynamic Saint Cards rendered via js/main.js & silsila-data.js -->
+          </div>
+        </div>
+
+        <!-- Dynamic Table View -->
+        <div id="silsila-table-view-wrap" style="display: none;">
+          <div class="silsila-table-wrap">
+            <table class="silsila-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Blessed Saint Name &amp; Title</th>
+                  <th>Date of Visaal</th>
+                  <th>Hijri Year</th>
+                  <th>Blessed Muqaam (City)</th>
+                </tr>
+              </thead>
+              <tbody id="silsila-table-body">
+                <!-- Dynamic Saint Rows rendered via js/main.js & silsila-data.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="silsila-container-card" style="margin-bottom:3rem;">
+        <div class="silsila-chart-box">
+          <img src="assets/images/silsila-tree.jpg" alt="Silsila Tree Diagram" class="silsila-img zoomable-img" data-caption="Authentic Sacred Silsila Chart of Khanqah-e-Sharafatiya">
+          <div style="position: absolute; bottom: 12px; right: 12px; background: rgba(0,0,0,0.7); color:#fff; font-size:0.75rem; padding:0.35rem 0.8rem; border-radius:9999px; display:flex; align-items:center; gap:0.35rem;">
+            🔍 Click to Enlarge Archival Document
+          </div>
+        </div>
+
+        <div class="silsila-timeline">
+          <div class="timeline-node highlight">
+            <div class="timeline-content">
+              <h4>1. Sayyiduna Muhammad Mustafa ﷺ</h4>
+              <p>The Seal of Prophethood, the supreme fountain of all esoteric and exoteric guidance.</p>
+            </div>
+          </div>
+
+          <div class="timeline-node">
+            <div class="timeline-content">
+              <h4>2. Ameer-ul-Momineen Ali Murtaza (R.A.)</h4>
+              <p>The fountainhead of spiritual transmission for the major Tariqahs of Tasawwuf.</p>
+            </div>
+          </div>
+
+          <div class="timeline-node">
+            <div class="timeline-content">
+              <h4>3. Hazrat Khwaja Hasan Basri (R.A.)</h4>
+              <p>The venerable Tabi'i of Basra, master of asceticism and early spiritual masters.</p>
+            </div>
+          </div>
+
+          <div class="timeline-node">
+            <div class="timeline-content">
+              <h4>4. Ghaus-ul-Azam Sheikh Abdul Qadir Jilani (R.A.)</h4>
+              <p>The Sultan of all Saints, leader of Silsila-e-Qadiriyyah, Baghdad Sharif (#14).</p>
+            </div>
+          </div>
+
+          <div class="timeline-node">
+            <div class="timeline-content">
+              <h4>5. Imam Rabbani Mujaddid Alf Sani (R.A.)</h4>
+              <p>Sheikh Ahmad Sirhindi, reviver of the pure Sunnah and Shariah, Sirhind Sharif (#27).</p>
+            </div>
+          </div>
+
+          <div class="timeline-node highlight">
+            <div class="timeline-content">
+              <h4>6. Hazrat Shah Muhammad Basheer Miyan (R.A.)</h4>
+              <p>Born 1859 in Khurasan (Iran), the spiritual guide who bestowed Khilafah in 1936 (#34).</p>
+            </div>
+          </div>
+
+          <div class="timeline-node highlight">
+            <div class="timeline-content">
+              <h4>7. Hazrat Qiblah Shah Sharafat Ali Miyan (R.A.)</h4>
+              <p>Patron Saint, founder of Khanqah-e-Sharafatiya (1950) in Shahbad, Bareilly Sharif (#35).</p>
+            </div>
+          </div>
+
+          <div class="timeline-node highlight">
+            <div class="timeline-content">
+              <h4>8. Maulana Sufi Shah Shuja'at Ali Miyan &amp; Shah Saqlain Miyan (R.A.)</h4>
+              <p>Blessed successors whose spiritual guidance illuminated the modern era worldwide (#36 &amp; #37).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-bottom">
+      <div class="footer-copy">Copyrights &copy; 2024. All Rights Reserved with <strong>alsaqlain.com</strong>.</div>
+    </div>
+  </footer>
+
+  <!-- Photo Lightbox Modal with Animated Transition & Navigation -->
+  <div class="custom-modal" id="lightbox-modal">
+    <div class="modal-inner">
+      <button class="modal-close-btn" id="lightbox-close" title="Close Popup (Esc)">&times;</button>
+      <div class="modal-content-area">
+        <div class="lightbox-img-wrapper">
+          <button class="lightbox-nav-btn prev" id="lightbox-prev" aria-label="Previous Photo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <img src="" alt="Enlarged View" id="lightbox-img" class="modal-main-img">
+          <button class="lightbox-nav-btn next" id="lightbox-next" aria-label="Next Photo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+        <div class="lightbox-meta-bar">
+          <div class="modal-caption" id="lightbox-caption">Dargah Hazrat Shah Sharafat Ali Miyan R.h.</div>
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <span class="lightbox-counter" id="lightbox-counter">Photo 1 of 12</span>
+            <a href="#" id="lightbox-download" class="btn-primary" style="padding: 0.35rem 0.85rem; font-size: 0.78rem; text-decoration: none;" download>
+              <span>Download</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Human-Style Mobile Bottom App Bar -->
+  <nav class="mobile-bottom-bar" aria-label="Mobile Navigation">
+    <a href="index.html" class="mobile-bottom-item">
+      <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="sajrah-sharif.html" class="mobile-bottom-item highlight-tab">
+      <svg viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg>
+      <span>Sajrah</span>
+    </a>
+    <a href="lineage.html" class="mobile-bottom-item active">
+      <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+      <span>Lineage</span>
+    </a>
+    <a href="gallery.html" class="mobile-bottom-item">
+      <svg viewBox="0 0 24 24"><path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/></svg>
+      <span>Gallery</span>
+    </a>
+    <a href="javascript:void(0)" class="mobile-bottom-item open-menu-drawer">
+      <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+      <span>Menu</span>
+    </a>
+  </nav>
+
+  <script src="js/silsila-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
